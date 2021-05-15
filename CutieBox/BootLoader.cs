@@ -49,7 +49,8 @@ namespace CutieBox
             #region Event Dependencies
 
             collection.AddSingleton<ConsoleLogEvent>()
-                .AddSingleton<CommandEvent>();
+                .AddSingleton<CommandEvent>()
+                .AddSingleton<ReadyEvent>();
 
             #endregion
 
